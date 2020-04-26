@@ -1,1 +1,9 @@
-/* LESS needs to be processed */
+@reset.less;
+@mixins.less;
+@global.less;
+@variables.less;
+@index.less;
+@home-page.less;
+@navigation.less;
+@footer.less;
+
