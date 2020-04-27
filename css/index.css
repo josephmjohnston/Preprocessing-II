@@ -126,6 +126,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+a {
+  text-decoration: none;
+}
 * {
   box-sizing: border-box;
 }
@@ -167,6 +170,13 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.header-section .header-nav {
+  width: 50%;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
 }
 .footer {
   width: 100%;
@@ -231,7 +241,11 @@ img {
   margin-bottom: 30px;
 }
 .home .content-pick .destination .btn {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #FFFFFF;
   background-color: #17A2B8;
   border: 1px black solid;
   padding: 20px;
+  border-radius: 15px;
 }
