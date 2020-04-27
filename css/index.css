@@ -183,6 +183,9 @@ img {
     width: 100%;
   }
 }
+.header-nav a {
+  color: #17A2B8;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
