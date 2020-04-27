@@ -5,9 +5,7 @@
     justify-content: space-between;
     border-bottom: 2px dashed @navigation-border;
     
-    @media @mobile{
-      flex-direction: column;
-    }
+    .flex-column();
     
   }
 
@@ -16,16 +14,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
-    @media (@mobile) {
-      background-color: green;
-      
-    }
+    .flex-column();
+    
    
     
     .text-content {
       width: 48%;
       padding-right: 1%;
+
+      @media @mobile {
+        .size(70%,auto);
+      }
+
     }
 
     .img-content {
@@ -67,10 +67,15 @@
     border-top: 2px dashed @navigation-border;
     display: flex;
     justify-content: space-between;
+    .flex-column();
 
     .destination {
       width: 30%;
       margin-bottom: 30px;
+
+      @media @mobile {
+        .size(70%, auto)
+      }
 
     .btn {
       text-align: center;
@@ -80,6 +85,7 @@
       border: 1px black solid;
       padding: 20px;
       border-radius: 15px;
+    
     }
     }
   }
